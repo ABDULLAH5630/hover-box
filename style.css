@@ -1,0 +1,115 @@
+.main{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px 30px;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-transition: all 5s;
+    transition: all 5s;
+    font-size: 25px;
+    color: green;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1500px;
+    perspective: 1500px;
+    text-shadow: 2px 2px 1px gray;
+}
+
+.main:hover{
+    -webkit-transform: rotateY(360deg) rotateX(180deg);
+    transform: rotateY(360deg) rotateX(180deg);
+}
+
+
+.one{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    font-size: 25px;
+    color: black;
+    background: rgba(248, 12, 39, 0.2);
+    line-height: 200px;
+    text-align: center;
+    -webkit-transform:translateZ(100px);
+    transform:translateZ(100px);
+}
+
+.two{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    font-size: 25px;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    background: rgba(248, 76, 12, 0.2);
+    -webkit-transform: rotateX(180deg) translateZ(100px);
+    transform: rotateX(180deg) translateZ(100px);
+}
+
+
+.three{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    font-size: 25px;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    background: rgba(239, 12, 248, 0.2);
+    -webkit-transform: rotateX(90deg) translateZ(100px);
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.four{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    font-size: 25px;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    background: rgba(12, 230, 248, 0.2);
+    -webkit-transform: rotateX(-90deg) translateZ(100px);
+    transform: rotateX(-90deg) translateZ(100px);
+}
+
+.five{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    font-size: 25px;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    background: rgba(248, 12, 212, 0.2);
+    -webkit-transform: rotateY(-90deg) translateZ(100px);
+    transform: rotateY(-90deg) translateZ(100px);
+}
+
+
+.six{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    font-size: 25px;
+    color: black;
+    line-height: 200px;
+    text-align: center;
+    background: rgba(175, 248, 12, 0.2);
+    -webkit-transform: rotateY(90deg) translateZ(100px);
+    transform: rotateY(90deg) translateZ(100px);
+}
